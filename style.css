@@ -1,0 +1,48 @@
+/*
+Theme Name: Our Lab Theme
+Theme URI: https://ligiasalzano.com/ourlabtheme/
+Author: Ligia Salzano
+Author URI: https://ligiasalzano.com/
+Description: A simple theme for scientific dissemination
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ourlabtheme
+Tags: science, minimalist, clean, white
+*/
+
+/*DEFAULTS*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*HEADER*/
+.site-branding .site-logo {
+    margin: 0 15px;
+}
+.site-branding .site-logo h1 {
+    font-size: 33px;
+    line-height: 32px;
+    letter-spacing: 5px;
+}
+.site-branding .site-description {
+    font-size: 10px;
+    line-height: 12px;
+}
+@media (max-width:768px) {
+    #site-navigation {
+        justify-content: flex-end;
+    }
+}
+
+/*PEOPLE*/
+@media (min-width:768px) {
+    .card.person{
+        min-height: 305px;
+    }
+}
+.card.person .keywords{
+    min-height: 36px;
+    font-size: 14px;
+}
